@@ -13,6 +13,8 @@ task detekt(type: JavaExec) {
     args(params)
 }
 
+check.dependsOn detekt
+
 dependencies {
     detekt 'io.gitlab.arturbosch.detekt:detekt-cli:1.0.0.RC6-3'
 }
