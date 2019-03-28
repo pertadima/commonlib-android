@@ -367,4 +367,4 @@ style:
     active: false
   WildcardImport:
     active: true
-    excludeImports: 'kotlinx.android.synthetic.*'
+    excludeImports: 'kotlinx.android.synthetic.*,import id.co.core.commons.*'
